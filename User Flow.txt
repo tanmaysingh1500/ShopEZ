@@ -1,0 +1,64 @@
+USER FLOW – ShopEZ
+
+The User Flow describes the step-by-step journey a user follows while interacting with the ShopEZ platform, from registration to order tracking.
+ __________     _______     _________________     _____________     __________     ____________________     _________________
+| Register | → | Login | → | Browse Products | → | Add to Cart | → | Checkout | → | Order Confirmation | → | View in Profile |
+
+
+Step 1: User Registration
+A new user visits the platform.
+The user creates an account by providing:
+Name
+Email
+Password
+The system securely stores credentials using password encryption.
+After successful registration, the user can proceed to login.
+
+Step 2: User Login
+The user logs in using registered email and password.
+The system verifies credentials.
+Upon successful authentication:
+A secure session (JWT) is generated.
+The user is redirected to the homepage/dashboard.
+
+Step 3: Browse Available Products
+Once logged in, users can:
+View product listings
+Search for products
+Filter by categories
+View detailed product information
+Each product includes pricing, description, and available discounts.
+
+Step 4: Add Products to Cart
+Users select desired products.
+Click “Shop Now” or “Add to Cart.”
+Selected items are stored in the user’s cart.
+Users can:
+Modify quantity
+Remove items
+Review cart summary
+
+Step 5: Proceed to Checkout
+From the cart page, users proceed to checkout.
+They enter:
+Shipping address
+Payment details
+Any additional instructions
+The system validates the information before confirming the order.
+
+Step 6: Order Placement
+The order is successfully processed.
+The system:
+Generates an Order ID
+Stores order details in the database
+Sends order confirmation
+Cart is cleared after successful order placement.
+
+Step 7: Order Tracking in Profile Section
+Users can visit their Profile section.
+They can:
+View order history
+Check order details
+Track order status
+This ensures transparency and easy access to previous transactions.
+
